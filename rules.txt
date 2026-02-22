@@ -1,0 +1,124 @@
+I want a Sanbox Board game App, to help me Prototype a tabletop game.
+The Map is a Grid, with 3 Sections: Player 1, a buffer zone in between and Player 2.
+The two players have different colors.
+The Map Size should be configurable, start with 3x3 Player, and 3x1 Buffer Zone.
+There are 3 Unit Types, Infantry, Cavalry and Artillery. The Units are represented  by Markers with the unit count written on them.
+Unit-Markers have also a Losses counter, and States which are shown on the Unit-Marker.
+Add a rounds counter in the Top corner.
+There are two Modes, Play Mode and Sanbox Mode, make it is possible to switch Modes.
+
+In Sanbox Mode:
+It is possible to place new markers, edit existing ones or move them freely. 
+Multiple Markers (also from the same unit Type and different Players) can be on the same Tile. 
+It is possible to change the State on every Marker, to indicate reloading, moved or other states of the units.
+Units can have multiple states at once.
+It is possible to Edit, remove and make new possible states to choose from.
+Make the Moving Markers work by long press drag an drop. 
+In general, it should be possible to edit any parmeter in this mode. 
+
+In Play Mode:
+The Units placed in Sandbox mode should now have the following Rules:
+
+One Player is the Attacker, the other the defender, can be changed in sandbox mode.
+
+The Attacker always begins each Phase.
+
+Phases:
+1. Cavallery Move
+2. Aktion (Shoot, Close Combat, Reload)
+3. Move All Units
+
+Cavalry Move:
+- all Cavalry units can move 1 Tile
+- Starting with all Cavalry Units from the Attacker, then the ones from the Defender.
+- Cav. Can only move when not in Close Combat
+
+Actions:
+- Every unit does its action
+- Units can Shoot, Reload, Fight in close Combat or Wait
+- All Actions happen at the same time, from game logic perspective. The Losses are counted and shown on the Units, and cumulatively applied when ending the Action phase.
+
+Move:
+- All Units can move here (Yes Cav can move again) 
+- Units can only move when not Reloaded, Shot, or Fought in Close Combat in the Action-Phase
+- The Move Order is fixed: Attacking Cav, Defending Cav, Attacking Inf, Defending inf, Attacking Arti, Defending Arti
+
+General Rules:
+- Before shooting again, a Unit must reload for one Action Phase.
+- Units can not shoot enemy units on the same tile.
+- Enemy Units on the same tile enter close combat.
+- Moving out of Close Combat can only be done when both players withdraw / not fight close combat with this Unit in the Action Phase
+- Units can Seperate, Splitting 10 Infantry in 3 and 7, those two Armies can do different Things, one could Shoot, the other wait and move.
+
+Game Mechanics:
+Hit Rate - represents the Probability of a successful hit of a unit.
+Probability is only used for statistically uncertain events. When the Unit Count times the Hit Probability is above One, only the fraction is calculated with probability.
+Example: 8 Units with Hit Rate 1/6 shoot.
+From 6 Units 1 Unit will hit statistically, so only for Unit 7 an 8 the Probability 1/6 is actually calculated. Resulting in 1 Hit and a 2/6 Probability for a 2. Hit.
+
+Damage - Dmg
+How many Enemy Units are killed when hit.
+x2 vs Unit, means double the units killed when hit.
+
+Range
+How many Tiles the Unit can Shoot.
+
+Unit Stats:
+
+Artillery
+Ranged Attack:
+2/6 Hit Rate, 10 Range, 1 Dmg, Dmg x2 vs Infantry
+Close Combat:
+1/6 Hit, 1 dmg
+Movement:
+1 Tile
+
+Cavalry
+Ranged Attack:
+None
+Close Combat:
+2/6 Hit Rate, 1 Dmg, Dmg x2 vs Artillery
+Movement:
+1 Tile
+
+Infantry
+Ranged Attack:
+2/6 Hit Rate, 2 Range, 1 Dmg
+Close Combat:
+1/6 Hit, 1 Dmg
+Movement:
+1 Tile
+
+
+Changes:
+In Sandbox Mode there is the possibility to edit all parameters of the Units, and some of the Game Mechanics.
+All Stats of the Units should be editable.
+Stats changes apply to all units of that type for all players.
+
+Game Mechanics Options
+Retreat from Close Combat - Units can move out of close combat, when not fought in Action phase, even when the enemy is fighting in close combat in the Action phase.
+(Leads to losses for the retreating player, but the unit can move out of combat, without the enemy having to do the same)
+
+Upgrades:
+Upgrades are available through Sandbox mode, and are activated for all units of that type for the same player.
+
+Infantry upgrade
+- Fire and Run - Infantry is able to move in Move Phase after Shooting or Reloading
+- Bored Rifles - Infantry +1 Hit Rate from 2/6 to 3/6
+- Bayonet - Infantry +1 Close Combat from 1/6 to 2/6
+
+Cavalry Upgrade
+- Break Through 1 - Cavalry can move out of Close combat in both move phases, even when fighting before in the Action phase.
+- Break Through 2 - Cavalry can move out of Close combat in the Cavalry move phase, and in the General move Phase only when not fighting before in the Action phase.
+- Unsaddle - when Hit by Ranged Attack, instead of dying cavalry becomes normal Infantry
+- Dragoons, Cavalry get a Ranged Attack, with 1/6 Hit Rate, 1 Range, 1 Dmg, Shooting and Reloading dont prevent them from moving in both their move phases.
+
+
+Artillery Upgrades
+Artillery gets to choose the used Ammunition before Shooting. The Ammunition can be changed every Shot. Different Ammunition changes the Stats of the Artillery.
+- Canister Shot - Possible choosable Ammunition, 4/6 Hit Rate, 2 Range, 4 Dmg vs infantry, 3 dmg vs Cavalry, 2 Dmg vs Artillery
+- Granade - Possible choosable Ammunition, 2/6 Hit Rate, 10 Range, 3 Dmg vs Infantry, 2 Dmg vs Cavalry, 1 Dmg vs Artillery
+- Bored Barrel - Hit Rate +1, from 2/6 to 3/6
+
+
+It is possible to activate multiple Upgrades, (Except the two versions of Break Through 1/2 are exclusive), and to edit the Stats of Upgrades in the Sandbox Mode.
