@@ -1,0 +1,26 @@
+Artillery
+Cost: 1 Wood, 1 Iron
+Ranged Attack:
+2/6 Hit Rate, inf. Range, 1 Dmg, Dmg x2 vs Infantry
+Close Combat:
+1/6 Hit, 1 dmg
+Movement:
+1 Tile
+
+Cavalry
+Cost: 1 Cattle
+Ranged Attack:
+None
+Close Combat:
+2/6 Hit Rate, 1 Dmg, Dmg x2 vs Artillery
+Movement:
+1 Tile
+
+Infantry
+Cost: 1 Wheat
+Ranged Attack:
+2/6 Hit Rate, 2 Range, 1 Dmg
+Close Combat:
+1/6 Hit, 1 Dmg
+Movement:
+1 Tile

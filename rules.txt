@@ -122,3 +122,6 @@ Artillery gets to choose the used Ammunition before Shooting. The Ammunition can
 
 
 It is possible to activate multiple Upgrades, (Except the two versions of Break Through 1/2 are exclusive), and to edit the Stats of Upgrades in the Sandbox Mode.
+
+Tech Idee:
+Meat Shild - Friendly Fire reduced

@@ -1,0 +1,16 @@
+- Cav 2/6 -> 3/6 Close Combat Yes
+- ggf. Inf Hit Rate /2 gegen Cav No
+- Cav Angriff boost wenn von Seite oder von Hinten angreift? No
+(Momentan ist Inf sehr Stark, weil günstig und 2/6 Hit Rate) 
+- Dass Inf nicht laufen kann nach dem sie Schießt oder Nachlädt fühlt sich komisch an
+- vllt. Bajonett für Inf sollte sich nur auf Nahkampf mit Inf beziehen, sonst is Cav zu schlecht
+
+Mit Cav 3/6 Hit Rate ist Cav stärker
+Preise angepasst
+2 Inf = 2 Cav = 1 Arty
+
+Cav wird gerade vllt zu stark, weil sie alleine Inf besiegen kann in Gleichen Nummern
+um Cav mehr zu teamplay zu machen, müsste Friendly fire überarbeitet warden
+Logisch ist kein Friendly fire nicht, aber Spieltechnisch ergibt es sinn,
+Cav macht an sich nicht super viel Damage, außer an Arty, aber wenn die Cav die Inf bindet, mit 2/6 Hit Rate damit Cav alleine nicht zu wirksam.
+Dann kann Inf und Arty im Hintergrund die Gegnerische Inf zerpflücken.

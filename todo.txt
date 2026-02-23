@@ -1,0 +1,5 @@
+Marker Move triggers demark Moved Pieces - Phase Change Always Triggers Battle and Moved Check
+Units txt hinzufügen - Check
+Layer Close Combat hinzufügen - Check
+Damage Print out pro einheit hinzufügen - 
+Appropriate Possible Actions, Reload nur in Fight Phase.
