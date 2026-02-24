@@ -3,5 +3,6 @@ Units txt hinzufügen - Check
 Layer Close Combat hinzufügen - Check
 Damage Print out pro einheit hinzufügen - Check
 Phase sensitive Move and Combat - Check
-Combat Layer decides Damage Print out - 
+Only Cav unmoved in Cav Move phase - Check
+Combat Layer decides Damage Print out - Check
 Appropriate Possible Actions, Reload nur in Fight Phase. - 
