@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VASSAL.build.module.Map allowMultiple="true" backgroundcolor="255,255,255" buttonName="Map" changeFormat="$message$" color="0,0,0" createFormat="$pieceName$ created in $location$ *" description="" edgeHeight="0" edgeWidth="0" hideKey="" hotkey="" icon="/images/map.gif" launch="false" mapName="Battle Map" markMoved="Always" markUnmovedHotkey="57344,0,global_mark_unmoved" markUnmovedIcon="shoes.png" markUnmovedReport="" markUnmovedText="Moved" markUnmovedTooltip="Mark all pieces on this map as not moved" moveKey="57345,0,MovedOnMap" moveToFormat="$pieceName$ moves $previousLocation$ &amp;rarr; $location$ *" moveWithinFormat="$pieceName$ moves $previousLocation$ &amp;rarr; $location$ *" onlyReportChangedLocation="true" showKey="" thickness="3">
+    <VASSAL.build.module.map.ForwardToKeyBuffer/>
+    <VASSAL.build.module.map.Scroller/>
+    <VASSAL.build.module.map.ForwardToChatter/>
+    <VASSAL.build.module.map.MenuDisplayer/>
+    <VASSAL.build.module.map.MapCenterer/>
+    <VASSAL.build.module.map.StackExpander/>
+    <VASSAL.build.module.map.PieceMover/>
+    <VASSAL.build.module.map.KeyBufferer/>
+    <VASSAL.build.module.map.MassKeyCommand buttonHotkey="" buttonText="Battle" canDisable="false" deckCount="-1" disabledIcon="" filter="" hideWhenDisabled="false" hotkey="57350,0,global_battle" icon="cross3_smaller.png" name="Battle Command" propertyGate="" reportFormat="" reportSingle="false" singleMap="true" suppressSounds="false" target="MAP|false|MAP|||||0|0||false|||EQUALS||" tooltip="Calculate Battle Results"/>
+    <VASSAL.build.module.map.BoardPicker addColumnText="Add column" addRowText="Add row" boardPrompt="Select board" slotHeight="125" slotScale="0.2" slotWidth="350" title="Choose Boards">
+        <setup>Battle MapBoardPicker	Battle Board	0	0	Phases	1	0</setup>
+        <VASSAL.build.module.map.boardPicker.Board image="board_middle_adjusted.png" name="Battle Board" reversible="false">
+            <VASSAL.build.module.map.boardPicker.board.SquareGrid color="0,156,109" cornersLegal="false" dotsVisible="true" dx="255.0" dy="239.0" edgesLegal="false" range="Manhattan" snapTo="false" visible="true" x0="134" y0="121">
+                <VASSAL.build.module.map.boardPicker.board.mapgrid.SquareGridNumbering color="141,213,151" first="H" fontSize="12" hDescend="false" hDrawOff="0" hLeading="1" hOff="0" hType="A" locationFormat="$gridLocation$" rotateText="0" sep="," vDescend="false" vDrawOff="7" vLeading="0" vOff="0" vType="N" visible="true"/>
+            </VASSAL.build.module.map.boardPicker.board.SquareGrid>
+        </VASSAL.build.module.map.boardPicker.Board>
+        <VASSAL.build.module.map.boardPicker.Board image="phases_withMarkers.png" name="Phases" reversible="false">
+            <VASSAL.build.module.map.boardPicker.board.SquareGrid color="0,0,0" cornersLegal="false" dotsVisible="false" dx="195.0" dy="232.0" edgesLegal="false" range="Metric" snapTo="true" visible="true" x0="99" y0="117">
+                <VASSAL.build.module.map.boardPicker.board.mapgrid.SquareGridNumbering color="0,0,0" first="H" fontSize="9" hDescend="false" hDrawOff="0" hLeading="0" hOff="15" hType="A" locationFormat="$gridLocation$" rotateText="0" sep="" vDescend="false" vDrawOff="0" vLeading="0" vOff="1" vType="N" visible="false"/>
+            </VASSAL.build.module.map.boardPicker.board.SquareGrid>
+        </VASSAL.build.module.map.boardPicker.Board>
+    </VASSAL.build.module.map.BoardPicker>
+    <VASSAL.build.module.map.StackMetrics bottom="40,0" color="233,158,196" disabled="true" down="37,0" exSepX="10" exSepY="24" top="38,0" unexSepX="4" unexSepY="8" up="39,0"/>
+    <VASSAL.build.module.map.ImageSaver buttonText="" canDisable="false" disabledIcon="" hideWhenDisabled="false" hotkey="" icon="/images/camera.gif" propertyGate="" tooltip="Save map as PNG image"/>
+    <VASSAL.build.module.map.Flare circleColor="255,0,0" circleScale="true" circleSize="100" flareKey="keyAlt" flareName="Map Flare" flarePulses="6" flarePulsesPerSec="3" reportFormat=""/>
+    <VASSAL.build.module.map.Zoomer inButtonText="" inIconName="/images/zoomIn.gif" inTooltip="Zoom in" outButtonText="" outIconName="/images/zoomOut.gif" outTooltip="Zoom out" pickButtonText="" pickIconName="/images/zoom.png" pickTooltip="Select Zoom" zoomInKey="" zoomLevels="0.2,0.25,0.333,0.4,0.5,0.555,0.625,0.75,0.8,0.9,0.95,1.0,1.25,1.6" zoomOutKey="" zoomPickKey="" zoomStart="3"/>
+    <VASSAL.build.module.properties.GlobalProperties/>
+    <VASSAL.build.module.map.SelectionHighlighters/>
+    <VASSAL.build.module.map.HighlightLastMoved color="255,0,0" enabled="true" thickness="2"/>
+    <VASSAL.build.module.map.SetupStack location="P1" name="Phase" owningBoard="Phases" useGridLocation="true" x="99" y="117">
+        <VASSAL.build.widget.PieceSlot entryName="Phase Marker" gpid="26" height="64" width="75">+/null/prototype;Phase_Marker	piece;;;phase_marker.png;Phase Marker/	null;0;0;26;0</VASSAL.build.widget.PieceSlot>
+    </VASSAL.build.module.map.SetupStack>
+</VASSAL.build.module.Map>

@@ -5,4 +5,8 @@ Damage Print out pro einheit hinzufügen - Check
 Phase sensitive Move and Combat - Check
 Only Cav unmoved in Cav Move phase - Check
 Combat Layer decides Damage Print out - Check
-Appropriate Possible Actions, Reload nur in Fight Phase. - 
+Appropriate Possible Actions, Reload nur in Fight Phase. - Reload: egal, Move schwer zu restricten (replace with other)
+Player Bonus / Tech Apply to Units - Nope
+ggf. nen Rechner für Unit Count * Rate * Dmg für weniger hardcoding der Unit Stats - Check
+Anzeige / Info Sheet mit Unit Stats und Upgrades -
+Encampments / Pfähle Units auf Map - check

@@ -1,0 +1,28 @@
+Technologies:
+
+Infantry 
+2/6 Hit Rate, 2 Rage, 1/6 Combat, 1 Dmg
+Upgrades:
+- Fire and advance - Infantry is able to move in Move Phase after Shooting or Reloading
+- Bored Rifles - Infantry +1 Hit Rate from 2/6 to 3/6
+- Bayonet - Infantry +1 Close Combat from 1/6 to 2/6
+- Staggered Formation - Inf -1 dmg from Cannons
+- Grenadier - Alternativ Angriff mit: Range 1, 3/6 Hit Rate, 2 Dmg
+
+Cavalry 
+2/6 Combat, 1 Dmg, +1 vs Arti
+Upgrades:
+- Break Through - Cavalry can move out of Close combat in general move phases, even when fighting before in the Action phase.
+- Unsaddle - when Hit by Ranged Attack, instead of dying cavalry becomes normal Infantry
+- Dragoons, Cavalry get a Ranged Attack, with 1/6 Hit Rate, 1 Range, 1 Dmg, Shooting and Reloading don't prevent them from moving in both their move phases.
+- Trample Damage - +1 Close Combat from 2/6 to 3/6
+
+Artillery 
+2/6 Hit Rate, inf Range, 1/6 Combat, 1 Dmg, +1 vs Inf
+Upgrades:
+Artillery gets to choose the used Ammunition before Shooting. The Ammunition can be changed every Shot. Different Ammunition changes the Stats of the Artillery.
+- Canister Shot - Munition, +2 Hit Rate (4/6), nur 2 Range, +2 Dmg vs Inf (4 Dmg), +1 vs Cav (2 Dmg)
+- Granade - Possible choosable Ammunition, 2/6 Hit Rate, inf Range, 3 Dmg vs Infantry, 2 Dmg vs Cavalry, 1 Dmg vs Artillery
+- Bored Barrel - Hit Rate +1, from 2/6 to 3/6
+- Encampment - Costs 1 Clay, -1 Gegner Hit Rate, (-1 Dmg ?)
+
