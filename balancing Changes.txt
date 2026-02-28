@@ -14,3 +14,6 @@ um Cav mehr zu teamplay zu machen, müsste Friendly fire überarbeitet warden
 Logisch ist kein Friendly fire nicht, aber Spieltechnisch ergibt es sinn,
 Cav macht an sich nicht super viel Damage, außer an Arty, aber wenn die Cav die Inf bindet, mit 2/6 Hit Rate damit Cav alleine nicht zu wirksam.
 Dann kann Inf und Arty im Hintergrund die Gegnerische Inf zerpflücken.
+
+
+Inf sollte +1 close combat dmg gegen arti haben, aus logischer sicht, sonst ist arti im close combat gleich gut wie inf.
