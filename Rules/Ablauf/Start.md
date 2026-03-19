@@ -1,0 +1,3 @@
+- Platzieren von 2x [[Länderei#Siedlung]] verbunden, 3x [[Straße]]
+- Ressourcen für an Siedlung angrenzende Felder bekommen
+- erster Runde startet
