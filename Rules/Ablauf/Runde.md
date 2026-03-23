@@ -1,9 +1,9 @@
 ### Ablauf ein Jahr
 - [[Jahresereignis]] ziehen
 	- Frühling
-		- [[Monatsereignis]] ziehen
+		- [[Quartalsereignis]] ziehen
 		- [[#Wirtschaftsphase]]
-		- 3x [[#Armeephase]]
+		- 3x [[#Armeephase]] (ggf. 2x)
 	- Sommer
 		- Monatsereignis ziehen
 		- Wirtschaftsphase

@@ -19,9 +19,11 @@ Wie viele Arbeiter auf einem Feld arbeiten können, ist abhängig von Feld, Jahr
 - Kosten: 1 Holz, 1 Vieh, 1 Weizen, 1 Lehm
 - Level 1-3
 ### Stadt
+- Aubau auf LvL. 3 Möglich
 - Kosten: 2 Holz, 4 Lehm, 6 Erz
 - Level 4-6
 ### Metropole
+- Ausbau auf LvL.6 Möglich
 - Kosten: 4 Münzen, 4 Papier, 4 Kleidung
 - Level 7-9
 ## Wintertribut
