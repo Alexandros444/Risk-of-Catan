@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Krieg/Einheiten.md",
+                "file": "Ereignisse/Quartalsereignis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Einheiten"
+              "title": "Quartalsereignis"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Krieg/Einheiten.md",
+                "file": "Ereignisse/Quartalsereignis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Einheiten"
+              "title": "Backlinks for Quartalsereignis"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Krieg/Einheiten.md",
+                "file": "Ereignisse/Quartalsereignis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Einheiten"
+              "title": "Outgoing links from Quartalsereignis"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Krieg/Einheiten.md",
+                "file": "Ereignisse/Quartalsereignis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Einheiten"
+              "title": "Outline of Quartalsereignis"
             }
           }
         ],
@@ -206,10 +206,10 @@
   },
   "active": "f1070ac5ddc8cb16",
   "lastOpenFiles": [
-    "Ereignisse/Quartalsereignis.md",
     "Ereignisse/Jahresereignis.md",
-    "Ablauf/Runde.md",
     "Krieg/Einheiten.md",
+    "Ereignisse/Quartalsereignis.md",
+    "Ablauf/Runde.md",
     "Figuren/Länderei.md",
     "Krieg/Truppenbewegung.md",
     "Krieg/Armee.md",
